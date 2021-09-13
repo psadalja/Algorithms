@@ -1,5 +1,5 @@
 let a = [20, 11, 2, 9, 2];
-const boubleSort = (array) => {
+const bubleSort = (array) => {
   for (let i = 0; i < array.length; i++) {
     let sorted = 1;
     // Boolean(isSorted)
@@ -16,5 +16,5 @@ const boubleSort = (array) => {
     if (Boolean(sorted)) return;
   }
 };
-let b = boubleSort(a);
+let b = bubleSort(a);
 console.log(b);
