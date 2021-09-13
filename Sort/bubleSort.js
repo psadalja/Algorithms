@@ -18,3 +18,7 @@ const bubleSort = (array) => {
 };
 let b = bubleSort(a);
 console.log(b);
+
+// time complexity for bubble sort is O(n^2)
+
+// best case scenario is O(n)
