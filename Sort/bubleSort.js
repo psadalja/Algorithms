@@ -1,9 +1,9 @@
 let a = [20, 11, 2, 9, 2];
 const bubleSort = (array) => {
-  for (let p = 0; i < array.length; i++) {
+  for (let p = 0; p < array.length; p++) {
     let sorted = 1;
     // Boolean(isSorted)
-    for (let q = 1; q < array.length - i; j++) {
+    for (let q = 1; q < array.length - p; q++) {
       if (array[q] < array[q - 1]) {
         const temp = array[q];
         array[q] = array[q - 1];
